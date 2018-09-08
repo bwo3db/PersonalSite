@@ -8,61 +8,61 @@
    <body>
    <div id="sidebar">
       <img id="line-render" src="images/Title Block.png" />
-      <h3 class="body-font side-text sidebar-l1">github | resume</h3>
-      <h3 class="body-font side-text ">bwo3db@virginia.edu</h3>
+      <h3 class="body-font side-text sidebar-l1"><a href="https://github.com/bwo3db">github</a> | <a href="https://drive.google.com/file/d/1UavSIDFEj9_JvGb-GxnMBLBFLg_SE1LZ/view?usp=sharing">resume</a></h3>
+      <h3 class="body-font side-text" onclick="scrollToContact()">bwo3db@virginia.edu</h3>
       <h2 class="title-font side-text sidebar-l3">About</h2>
       <div id="sidebar-line"></div>
       <p class="body-font side-text sidebar-l4">I am a Web Developer, Computer Scientist, and Freelancer with a passion for User Experience, Design, and Social Change. </p>
-      <p class="contact-text title-font side-text">Contact Me</p>
+      <p class="contact-text title-font side-text contact-me" onclick="scrollToContact()"><a >Contact Me</a></p>
    </div><div id="main-cont-scroll">
       <div class="invisi-bar">
          <h1 class="invisi-bar-head sidebar-l1 title-font">Benjamin Ormond</h1>
-         <h2 class="invisi-bar-sub body-font">GITHUB | EMAIL</h2>
+         <h2 class="invisi-bar-sub body-font"><a href="https://github.com/bwo3db">GITHUB</a> | <a href="https://drive.google.com/file/d/1UavSIDFEj9_JvGb-GxnMBLBFLg_SE1LZ/view?usp=sharing">RESUME</a></h2>
       </div>
       <div class="head1-bar">
          <div class="red-bar"></div><h1 class="title-font body-headings1">Portfolio</h1><div class="red-bar"></div>
       </div>
       <div id="port-holder">
-         <div class="port-feat">
+         <div class="port-feat"><a href="https://hackcville.com/fellows-profiles/">
             <img class="port-feat-img" src="images/FellowsPage.PNG"/>
             <div class="port-feat-hover">
                <h1 class="port-feat-main">Launch Fellows Page</h1>
                <div class="white-bar"></div>
-               <p class="port-feat-submain">HTML/CSS/Design</p>
+               <p class="port-feat-submain">HTML / CSS / Design</p>
                <p class="port-feat-submain">HackCville</p>
                <p class="port-feat-submain">2018</p>
             </div>
-         </div>
-         <div class="port-feat">
+         </a></div>
+         <div class="port-feat"><a href="http://pifdev.renaissancegroup.xyz/about/">
             <img class="port-feat-img" src="images/Pearl Island Foods Main Page.PNG"/>
             <div class="port-feat-hover">
                <h1 class="port-feat-main">Pearl Island Foods</h1>
                <div class="white-bar"></div>
-               <p class="port-feat-submain">Wordpress.com Dev./Design/UI</p>
-               <p class="port-feat-submain">Freelance</p>
+               <p class="port-feat-submain">Wordpress.com / Design / UI</p>
+               <p class="port-feat-submain">Freelance / Renaissance Group</p>
                <p class="port-feat-submain">2018</p>
             </div>
-         </div>
-         <div class="port-feat">
-            <img class="port-feat-img" src="images/The Favorites Page Examples.PNG"/>
-            <div class="port-feat-hover">
-               <h1 class="port-feat-main">Favorites Layout</h1>
-               <div class="white-bar"></div>
-               <p class="port-feat-submain">HUBL/CSS/UI/Design</p>
-               <p class="port-feat-submain">Generation 180</p>
-               <p class="port-feat-submain">2017</p>
-            </div>
-         </div>
-         <div class="port-feat">
+         </div></a>
+         <div class="port-feat"><a href="https://hackcville.com/programs/">
             <img class="port-feat-img" src="images/hustlepage.PNG"/>
             <div class="port-feat-hover">
                <h1 class="port-feat-main">Program Cards</h1>
                <div class="white-bar"></div>
-               <p class="port-feat-submain">Design</p>
+               <p class="port-feat-submain">UI Design Assistance</p>
                <p class="port-feat-submain">HackCville</p>
                <p class="port-feat-submain">2018</p>
             </div>
-         </div>
+         </div></a>
+         <div class="port-feat"><a href="https://www.generation180.org/favorites">
+            <img class="port-feat-img" src="images/The Favorites Page Examples.PNG"/>
+            <div class="port-feat-hover">
+               <h1 class="port-feat-main">Favorites Layout</h1>
+               <div class="white-bar"></div>
+               <p class="port-feat-submain">UI Design Assistance</p>
+               <p class="port-feat-submain">Generation 180</p>
+               <p class="port-feat-submain">2017</p>
+            </div>
+         </div></a>
       </div>
       <div class="head1-bar">
          <div class="red-bar"></div><h1 class="title-font body-headings1">Skills</h1><div class="red-bar"></div>
@@ -148,9 +148,10 @@
          <form id="contact-interior" action="https://formspree.io/bwo3db@virginia.edu" method="POST">
              <input class="email-box" type="email" name="email" placeholder="Email">
              <textarea id="desc-box" type="Message" name="Message" placeholder="Message"></textarea>
-             <input id="submission-box" type="submit" value="Send">
+             <input class="submission-box" type="submit" value="Send">
          </form>
       </div>
    </div>
    </body>
+   <script src="main.js"></script>
 </html>
