@@ -1,7 +1,7 @@
 $main-red: #AD212A;
 $overlay: rgba(0, 0, 0, 0.81);
 $title-font: "Federo", Times, serif;
-$body-font: "Futura Bk Bt", sans-serif;
+$body-font: "Futura Bk Bt", "Nunito", sans-serif;
 $cta-grey: #303030;
 
 *{
@@ -475,6 +475,25 @@ a{
       width:150px;
    }
 }
+
+@media(max-height:700px){
+   .sidebar-l3{
+      font-size:22px;
+   }
+   .contact-me{
+      margin-top:25px;
+   }
+}
+
+@media(max-height:675px){
+   .sidebar-l3, .sidebar-l4{
+      display:none;
+   }
+   #sidebar-line{
+      display:none;
+   }
+}
+
 
 @media(max-width:550px){
    .skills-feat{
